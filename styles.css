@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Open+Sans:wght@300&display=swap');
+
+h1{
+    height: 45px;
+    width: 400px;
+  background-color: #EC6974;
+  font-family: 'Dosis', sans-serif;
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+  font-weight: 800;
+  font-stretch: expanded;
+  border-radius: 15px;
+  color: beige;
+   
+}
+
+#grid{
+  
+    justify-content: center;
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+   
+
+}
+img {
+    padding: 10px;
+}
+
+body {
+    background-color: rgba(245, 245, 220, 0.744);
+    justify-content: center;
+    display: flex;
+}
+.score{
+    height: 450px;
+    width: 230px;
+    font-family: 'Dosis', sans-serif;
+    color: rgba(0, 0, 0, 0.659);
+    font-weight: bold;
+    border-radius: 15px;
+    padding-left: 20px;
+    font-size: x-large;
+    padding-bottom: 25px;
+    position:absolute; /*El div será ubicado con relación a la pantalla*/
+    left:0px; /*A la derecha deje un espacio de 0px*/
+    right:0px; /*A la izquierda deje un espacio de 0px*/
+    bottom:0px; /*Abajo deje un espacio de 0px*/
+    height:50px; /*alto del div*/
+    z-index:0;
+
+     }
+     span {
+        margin-left: 30px;
+     }
+
+     p {
+         padding-left: 30px;
+         color: white;
+         background-color:#EC6974;
+         border-radius: 50px;
+      }
+     img:hover{
+        transition: width 2s, height 2s, transform 2s;
+     }

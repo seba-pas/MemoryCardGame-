@@ -1,17 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Open+Sans:wght@300&display=swap');
 
 h1{
     height: 45px;
     width: 400px;
-  background-color: #EC6974;
-  font-family: 'Dosis', sans-serif;
+  background-color: black;
+  font-family: 'Montserrat', sans-serif;
   display: flex;
-  justify-content: center;
+  justify-content:center;
   margin: 0px;
   font-weight: 800;
   font-stretch: expanded;
   border-radius: 15px;
   color: beige;
+  margin-bottom:15px;
    
 }
 
@@ -30,14 +30,17 @@ img {
 }
 
 body {
-    background-color: rgba(245, 245, 220, 0.744);
+    background-color:black;
     justify-content: center;
     display: flex;
 }
 .score{
+    display:inline-block;
+    
     height: 450px;
     width: 230px;
-    font-family: 'Dosis', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  
     color: rgba(0, 0, 0, 0.659);
     font-weight: bold;
     border-radius: 15px;
@@ -57,11 +60,37 @@ body {
      }
 
      p {
+  font-family: 'Montserrat', sans-serif;
+
          padding-left: 30px;
          color: white;
-         background-color:#EC6974;
+         background-color:black;
          border-radius: 50px;
       }
      img:hover{
         transition: width 2s, height 2s, transform 2s;
      }
+     button {
+  font-family: 'Montserrat', sans-serif;
+  
+        float: right;
+      
+        background-color: black;
+        color: white;
+        border: 2px solid white;
+        animation: fadeIn 5s;
+      }
+      button:hover {
+        background-color: white;
+        color: black;
+        transition: 0.8s;
+      }
+     
+
+      .but{
+        display: flex;
+        justify-content: flex-end;
+        height: 25px;
+        margin-top:51.5%;
+        margin-left: 60px;
+      }

@@ -30,6 +30,8 @@ img {
 }
 
 body {
+  font-family: 'Montserrat', sans-serif;
+
     background-color:black;
     justify-content: center;
     display: flex;
@@ -56,6 +58,8 @@ body {
 
      }
      span {
+  font-family: 'Montserrat', sans-serif;
+
         margin-left: 30px;
      }
 
@@ -89,6 +93,8 @@ body {
      
 
       .but{
+  font-family: 'Montserrat', sans-serif;
+
         display: flex;
         justify-content: flex-end;
         height: 25px;
